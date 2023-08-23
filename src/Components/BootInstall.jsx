@@ -1,9 +1,9 @@
 import React from "react";
 import { BsFillBoxSeamFill, BsGlobe } from "react-icons/bs";
 import { FiArrowRight } from "react-icons/fi";
-import webpack from "../images/Boot Webpack.svg"
-import parcel from "../images/Boot Parsel.png"
-import vite from "../images/Boot Vite.svg"
+import webpack from "../images/Boot Webpack.svg";
+import parcel from "../images/Boot Parsel.png";
+import vite from "../images/Boot Vite.svg";
 import { FiCode } from "react-icons/fi";
 
 function BootInstall() {
@@ -26,7 +26,7 @@ function BootInstall() {
           </p>
           <p className="d-flex justify-content-md-start justify-content-md-center lead fw-normal">
             <a
-              href="/docs/5.3/getting-started/download/"
+              href="/"
               className="icon-link icon-link-hover fw-semibold ps-md-4"
             >
               Read installation docs
@@ -44,10 +44,8 @@ function BootInstall() {
             Install Bootstrap’s source Sass and JavaScript files via npm,
             RubyGems, Composer, or Meteor. Package managed installs don’t
             include documentation or our full build scripts. You can also{" "}
-            <a href="https://github.com/twbs/examples/">
-              use any demo from our Examples repo
-            </a>{" "}
-            to quickly jumpstart Bootstrap projects.
+            <a href="/">use any demo from our Examples repo</a> to quickly
+            jumpstart Bootstrap projects.
           </p>
           <div className="highlight py-3 px-4 border border-1 rounded">
             <pre tabIndex={0} className="chroma">
@@ -79,21 +77,10 @@ function BootInstall() {
           <h3 className="fw-semibold">Include via CDN</h3>
           <p className="pe-lg-5">
             When you only need to include Bootstrap’s compiled CSS or JS, you
-            can use{" "}
-            <a href="https://www.jsdelivr.com/package/npm/bootstrap">
-              jsDelivr
-            </a>
-            . See it in action with our simple{" "}
-            <a href="/docs/5.3/getting-started/introduction/#quick-start">
-              quick start
-            </a>
-            , or <a href="/docs/5.3/examples/">browse the examples</a> to
-            jumpstart your next project. You can also choose to include Popper
-            and our JS{" "}
-            <a href="/docs/5.3/getting-started/introduction/#separate">
-              separately
-            </a>
-            .
+            can use <a href="/">jsDelivr</a>. See it in action with our simple{" "}
+            <a href="/">quick start</a>, or <a href="/">browse the examples</a>{" "}
+            to jumpstart your next project. You can also choose to include
+            Popper and our JS <a href="/">separately</a>.
           </p>
           <div className="highlight">
             <pre

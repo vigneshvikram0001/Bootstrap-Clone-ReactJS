@@ -41,10 +41,10 @@ function BootUtility() {
               Apply any of our included utility classes to our components to
               customize their appearance, like the navigation example below.
               There are hundreds of classes available—from{" "}
-              <a href="/docs/5.3/utilities/position/">positioning</a> and{" "}
-              <a href="/docs/5.3/utilities/sizing/">sizing</a> to{" "}
-              <a href="/docs/5.3/utilities/colors/">colors</a> and{" "}
-              <a href="/docs/5.3/utilities/shadows/">effects</a>. Mix them with
+              <a href="/">positioning</a> and{" "}
+              <a href="/">sizing</a> to{" "}
+              <a href="/">colors</a> and{" "}
+              <a href="/">effects</a>. Mix them with
               CSS variable overrides for even more control.
             </p>
             <div className="p-4 border rounded-3 mb-4">

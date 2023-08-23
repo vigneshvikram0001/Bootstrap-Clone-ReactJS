@@ -9,7 +9,7 @@ function BootMain() {
           <div className="col-md-8 mx-auto text-center">
             <a
               className="d-flex flex-column flex-lg-row justify-content-center align-items-center mb-4 text-dark lh-sm text-decoration-none"
-              href="https://blog.getbootstrap.com/"
+              href="/"
             >
               <strong
                 className="d-sm-inline-block p-2 me-2 mb-2 mb-lg-0 rounded-3 masthead-notice"
@@ -58,7 +58,7 @@ function BootMain() {
                 </div>
               </div>
               <a
-                href="/docs/5.3/getting-started/introduction/"
+                href="/"
                 className="btn btn-lg bd-btn-lg btn-bd-primary b2 d-flex align-items-center justify-content-center fw-semibold pointer purple-bg  border border-1 rounded-2"
                 onclick="ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');"
               >
@@ -69,21 +69,15 @@ function BootMain() {
             <p className="text-body-secondary mb-0">
               Currently <strong>v5.3.0</strong>
               <span className="px-1">·</span>
-              <a
-                href="/docs/5.3/getting-started/download/"
-                className="link-secondary"
-              >
+              <a href="/" className="link-secondary">
                 Download
               </a>
               <span className="px-1">·</span>
-              <a
-                href="https://getbootstrap.com/docs/4.6/getting-started/introduction/"
-                className="link-secondary text-nowrap"
-              >
+              <a href="/" className="link-secondary text-nowrap">
                 v4.6.x docs
               </a>
               <span className="px-1">·</span>
-              <a href="/docs/versions/" className="link-secondary text-nowrap">
+              <a href="/" className="link-secondary text-nowrap">
                 All releases
               </a>
             </p>

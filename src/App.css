@@ -86,3 +86,7 @@ pre {
   }
 }
 
+/*  */
+.dropdown-item{
+  color: orange !important;
+}

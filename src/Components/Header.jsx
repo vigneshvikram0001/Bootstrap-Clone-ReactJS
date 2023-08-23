@@ -1,7 +1,6 @@
 import React from "react";
 import { BsGithub, BsTwitter, BsRecordCircleFill } from "react-icons/bs";
 
-
 function Header() {
   return (
     <div className="header">
@@ -86,18 +85,18 @@ function Header() {
                   </a>
                   <ul className="dropdown-menu dropdown-menu-end">
                     <li>
-                      <a className="dropdown-item" href="/">
-                        Menu item
+                      <a className="dropdown-item text-dark" href="/">
+                        Code
+                      </a>
+                    </li> 
+                    <li>
+                      <a className="dropdown-item text-dark" href="/">
+                        Navbar
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/">
-                        Menu item
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="/">
-                        Menu item
+                      <a className="dropdown-item text-dark" href="/">
+                        Contact
                       </a>
                     </li>
                   </ul>
